@@ -1,0 +1,124 @@
+.carousel{
+    width:1226px;
+    margin:0 auto;
+    margin-top:20px;}
+.banner .li_box{
+    width:1226px;
+    height:415px;
+    overflow:hidden;}/*幻灯片高度*/
+.banner .li_box a{ display:block; height:100%;}
+.carousel .flex-control-nav{ bottom:-25px;}
+.carousel .flex-direction-nav a{
+    width:54px;
+    height:54px;
+    background:url(../images/ikea/slideBtn.png) no-repeat;}
+.carousel a.flex-prev{
+    left:-60px;
+    background-position:0 0;}
+.carousel a.flex-next{
+    right:-60px;
+    background-position:-54px 0;}
+    
+/*限时优惠*/
+.fav{
+    width:1226px;
+    height:440px;
+    overflow:hidden;
+    margin:0 auto;
+    margin-top:50px;
+    border:1px solid #bfbfbf;
+    position:relative;}
+.fav > div{
+    position:absolute;}
+.f_tit{
+    left:0;
+    top:0;
+    padding:15px;}
+.f_tit .t_1 strong{
+    color:#b21c43;
+    font-size:26px;}
+.f_tit .t_1 em{
+    display: inline-block;
+    padding: 3px 10px;
+    background: #b21c43;
+    vertical-align: text-bottom;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.f_tit .t_2{ font-weight:bold;}
+.f_goods_1{left:23px; top:100px;}
+.f_goods_2{left: 380px;top: 19px;}
+.f_goods_3{left: 771px;top: 20px;}
+.f_goods_4{left: 55px;top: 263px;}
+.f_goods_5{left: 535px; top:200px;}
+.f_goods_6{left: 905px;top: 175px;}
+.f_goods > div{
+    float:left;}
+.f_goods .f_g_info{ padding:10px 0;}
+.f_goods:hover .f_g_info a{ color:#b21c43;}
+.f_g_info .f_g_i1 a{
+    font-size:26px;
+    color:#000;
+    font-weight:bold;}
+.f_g_info .f_g_i2 .f_del{
+    font-size:16px;
+    font-weight:bold;
+    text-decoration:line-through;}
+.f_g_info .f_g_i3{
+    font-size:36px;
+    color:#b21c43;
+    font-weight:bold;}
+.f_g_info > span{
+    width:47px;
+    height:47px;
+    display:block;
+    background:url(../images/ikea/code_icon.jpg) center no-repeat;
+    cursor:pointer;}
+
+/*单品*/
+.single{
+    width:1226px;
+    margin:30px auto;}
+.single h1{
+    font-size:24px;
+    margin-bottom:20px;}
+.single > div{
+    position:relative;
+    width:25%;
+    float:left;
+    padding:15px;
+    border:1px #fff solid;
+    background:#fff;}
+.single > div:hover{
+    border:1px #bfbfbf solid;
+    z-index:1;}
+.s_g_pic{
+    width:100%;
+    overflow:hidden;}
+.s_g_pic img{
+    width:100%;
+    min-height:100%;}
+.s_g_name a{
+    display:block;
+    color:#000;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;}
+.s_g_pri{
+    font-size:18px;
+    font-weight:bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+

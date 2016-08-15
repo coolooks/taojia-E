@@ -1,0 +1,34 @@
+.box{width:700px;}
+.box div,.box li{
+    box-sizing:content-box;
+    -webkit-box-sizing:content-box;}
+.tj-pic a{display:table-cell;text-align:center;vertical-align:middle;}
+.tj-pic a img{vertical-align:middle;}
+.tj-pic a{*display:block;*font-family:Arial;*line-height:1;}
+.tj-thumb{margin:10px 0 0;overflow:hidden;}
+.tj-thumb li{background:none repeat scroll 0 0 transparent;float:left;height:42px;margin:0 6px 0 0;overflow:hidden;padding:1px;}
+.tj-s310, .tj-s310 a{height:460px;width:700px;}
+.tj-s310, .tj-s310 img{max-height:460px;max-width:700px;}
+.tj-s310 a{*font-size:271px;}
+.tj-s40 a{*font-size:35px;}
+.tj-s40, .tj-s40 a{height:40px;width:40px;}
+.tj-booth{border:1px solid #e6e6e6;position:relative;z-index:1;}
+.tj-thumb .tj-selected{background:none repeat scroll 0 0 #2f2f2d;height:40px;padding:2px;}
+.tj-thumb .tj-selected div{background-color:#FFFFFF;border:medium none;}
+.tj-thumb li div{border:1px solid #CDCDCD;}
+div.zoomDiv{
+    z-index:999;
+    position:absolute;
+    top:0px;left:0px;
+    width:200px;
+    height:200px;
+    background:#ffffff;
+    border:1px solid #CCCCCC;
+    display:none;
+    text-align:center;
+    overflow:hidden;}
+div.zoomMask{
+    position:absolute;
+    background:url("../images/mask.png") repeat scroll 0 0 transparent;
+    cursor:move;
+    z-index:1;}

@@ -1,0 +1,277 @@
+.map{
+    width:1226px;
+    margin:10px auto;
+    font-size:12px;
+    color:#595959;}
+.map a{
+    margin:0 2px;}
+.detail{
+    width:1226px;
+    margin:0 auto;
+    margin-bottom:20px;}
+.de_l{
+    float:left;
+    width:700px;
+    position:relative;}
+.de_r{
+    float:right;
+    width:450px;
+    color:#2f2f2d;}
+.info{ border-bottom:1px #e6e6e6 solid;}
+.g_name{
+    font-size:24px;
+    font-weight:bold;}
+.g_pp{
+    line-height:26px;
+    color:#595959;}
+.g_pri{
+    font-size:38px;
+    font-weight:bold;}
+.g_pri_m{ color:#595959;}
+.g_pri_m #oldpri{ text-decoration:line-through;}
+.g_num{
+    margin-top:5px;
+    line-height:34px;
+    color:#000;}
+#clearFloat{
+    clear:both;}
+.g_wrap p{
+    line-height:34px;
+    color:#000;}
+.g_wrap .attr span{
+    display:inline-block;
+    padding:7px 13px;
+    margin:0 4px 4px 0;
+    border:1px #cdcdcd solid;
+    cursor:pointer;
+    background:#fff;
+    font-size:12px;
+    position:relative;}
+.g_wrap .attr span.on{
+    border:2px #cc0000 solid;
+    padding:6px 12px;}
+.g_wrap .attr span.on:after{
+    content:'';
+    display:block;
+    position:absolute;
+    right:0;
+    bottom:0;
+    width:13px;
+    height:13px;
+    background:url(../images/sele_icon.png) center no-repeat;}
+.g_wrap .num > span{
+    float:left;
+    display:block;}
+#numInput{
+    width:50px;
+    height:31px;
+    padding:0 3px;
+    border:1px #cdcdcd solid;
+    overflow:hidden;
+    background:#fff;}
+#numInput input{
+    width:100%;
+    line-height:30px;}
+#numBtn{
+    margin-left:4px;}
+#numBtn a{
+    display:block;
+    width:17px;
+    height:12px;
+    text-align:center;
+    line-height:11px;
+    border:1px #cdcdcd solid;
+    background:#fff;}
+#numBtn a#plus{
+    margin-bottom:3px;}
+#lave{
+    font-size:12px;
+    color:#595959;
+    line-height:30px;
+    margin-left:20px;}
+.mess{
+    line-height:60px;}
+.mess > span{
+    display:inline-block;
+    margin-right:25px;}
+.mess > span > a{ color:#333;}
+.mess > span > a > i{
+    display:inline-block;
+    width:22px;
+    height:18px;
+    background:url(../images/wechat.png) center no-repeat;
+    vertical-align:middle;
+    margin-right:3px;}
+.btnBox > a{
+    display:inline-block;
+    width:200px;
+    line-height:40px;
+    background:#442aa3;
+    color:#fff;
+    text-align:center;
+    border-radius:5px;
+    font-size:16px;
+    margin-right:5px;}
+.btnBox a#yuyue{
+    background:#ffe537;
+    color:#333;}
+.de_r > p{
+    line-height:38px;
+    color:#000;
+    font-size:12px;}
+
+/*--搭配商品---*/
+.recommend{
+    width:1226px;
+    margin:0 auto;
+    border:1px #e6e6e6 solid;
+    margin-bottom:20px;}
+.recommend > p{
+    font-size:16px;
+    width:100px;
+    line-height:50px;
+    text-align:center;
+    position:relative;}
+.re_good{
+    float:left;
+    width:16.66%;
+    padding:0 30px 15px;}
+
+.re_good > p{
+    font-size:12px;
+    line-height:20px;}
+.re_good > p.re_pri{ text-align:center; font-weight:bold; color:#f00;}
+.re_good .re_pic{
+    width:120px;
+    height:135px;
+    margin:0 auto;
+    overflow:hidden;}
+.re_good .re_pic a{
+    display:table-cell;
+    height:135px;
+    vertical-align:middle;}
+.re_good .re_pic img{
+    width:100%;
+    max-height:100%;}
+.re_good .re_de{
+    height:28px;
+    text-align:justify;
+    overflow:hidden;
+    line-height:14px;}
+
+/*--商品详情--*/
+.contain{
+    width:1226px;
+    margin:0 auto;}
+.content{
+    width:950px;
+    float:right;
+    border: 1px solid #e6e6e6;}
+.con_title{
+    line-height:40px;
+    font-size:16px;
+    border-bottom:1px #e6e6e6 solid;}
+.con_title > p{
+    float:left;
+    padding:0 15px;
+    cursor:pointer;
+    position:relative;
+    border-right:1px #e6e6e6 solid;}
+.con_title > p.on:after,.recommend > p:after{
+    content:'';
+    display:block;
+    position:absolute;
+    width:100%;
+    left:0;
+    top:0;
+    height:2px;
+    background:#442aa3;}
+.con_wrap{ background:#fbfbfb;}
+.con_wrap > div{ float:left;}
+.con_box{
+    padding:20px;
+    width:750px;
+    background:#fff;
+    border-right:1px #e6e6e6 solid;}
+.para{
+    padding-bottom:15px;}
+.para li{
+    width:200px;
+    margin-right:13px;
+    float:left;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    color:#595959;
+    line-height:22px;}
+.con_detail{
+    width:100%;}
+.con_detail img{
+    width:100%;
+    max-width:700px;}
+.con_item{
+    width:198px;}
+
+.other{
+    width:240px;
+    float:left;
+    border:1px solid #e6e6e6;}
+.o_title{
+    line-height:40px;
+    font-size:16px;
+    border-bottom:1px solid #e6e6e6;
+    padding-left: 15px;}
+.o_wrap{
+    padding:10px 25px;
+    padding-bottom:0;}
+.o_good{
+    float:left;
+    width:100%;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    border-top:1px solid #eee;}
+.o_good:first-child{border-top:none;}
+.o_good > p{
+    font-size:12px;
+    line-height:20px;}
+.o_good .o_pic{
+    width:120px;
+    height:135px;
+    margin:0 auto;
+    overflow:hidden;}
+.o_good .o_pic a{
+    display:table-cell;
+    vertical-align:middle;
+    height:135px;}
+.o_good .o_pic img{
+    width:100%;
+    max-height:100%;}
+.o_good .o_de{
+    height:30px;
+    text-align:justify;
+    overflow:hidden;
+    line-height:16px;}
+.o_good .o_pri{ text-align:center; font-weight:bold; color:#f00;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
